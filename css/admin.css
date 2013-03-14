@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: Arial;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-image: url(http://www.csimedia.net/images/background.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/**
+* Admin panel
+* CSS 
+* START
+*/
+#admin_wrap
+{
+	width: 960px;
+	margin: 0 auto;
+	min-height: 900px;
+	background:rgba(204, 204, 255, .5);
+}
+#admin_wrap option
+{
+	color: black;
+}
+.forms
+{
+	width: 450px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+#news_data
+{
+	/*outline: 5px solid black;*/
+	width: 880px !important;
+	margin: 0 auto;
+	text-align: center;
+}
+#news_data_info, #news_data_paginate
+{
+	margin-top: 10px;
+}
+#admin_wrap table tbody tr td img
+{
+	cursor: pointer;
+}
+.image_holder
+{
+	padding-left: 15px;
+	padding-top: 15px;
+}
+.image_holder ul
+{
+    list-style: none;
+    margin-top: 20px;
+}
+.image_holder ul li
+{
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #34849E;
+    border-radius:10px;
+    margin-right: 35px;
+    height: 96px;
+    width: 120px;
+    padding: 10px;
+    background: rgba(229, 229, 229,0.7);
+
+}
+.image_holder ul li label img
+{
+    margin-left: 10px;
+}
+tr.even
+{
+	background-color: transparent !important;
+}
+tr.even td.sorting_1 
+{
+	background-color: transparent !important;
+}
+#news_data_wrapper
+{
+	width: 880px;
+	margin: 0 auto;
+	border-radius: 10px;
+	border: 2px solid #34849E;
+}
+#admin_logo
+{
+    width: 203px;
+    height: 112px;
+    display: block;
+    margin: 0 auto;
+}
+#logIn
+{
+	width:500px;
+	margin:0 auto;
+	margin-top:350px;
+}
+
+.image_holder label
+{
+	cursor: pointer;
+}
+
+#comment_review
+{
+	min-width:300px !important;
+	max-width:450px !important;
+	margin: 0 auto;
+	margin-top:50px;
+	border-radius:10px;
+	border: 2px solid #34849E;
+}
+#comment_review table tr
+{
+	text-align: center;
+}
+#comment_review table tr td
+{
+border-right: 2px solid #34849E;
+	padding: 5px;
+}
+#comment_review table tr td:last-child
+{
+	border-right:none;
+}
+#comment_review table tr th
+{	padding: 5px;
+	border-bottom: 2px solid #34849E;
+	border-right: 2px solid #34849E;
+	text-align:center;
+	padding-right:23px;
+}
+#comment_review table tr th:last-child
+{
+	border-right:none;
+}
+#read
+{
+	width: 450px;
+	/*padding: 20px;*/
+	background: rgba(223 211 211 0.5);
+}
+#read p
+{
+	word-wrap:break-word;
+	font-size: 12px;
+}
+
+.admin_active
+{
+    display: block;
+}
+.inactive
+{
+    display: none;
+}
+#file_upload
+{
+    margin-left: 255px;
+    border:3px dotted #0088cc;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 400px;
+
+}
+/**
+* ADMIN PANEL
+* CSS
+* END
+*/
